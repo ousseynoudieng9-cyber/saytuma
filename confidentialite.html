@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — SaytuMa</title>
+<meta name="robots" content="index,follow">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #f6f8f6; color: #1d231f;
+    font: 17px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header, main, footer { max-width: 780px; margin: 0 auto; padding: 0 20px; }
+  header { padding-top: 44px; }
+  h1 { margin: 0 0 4px; font-size: 27px; color: #176B43; }
+  h2 { margin: 34px 0 8px; font-size: 20px; color: #176B43; }
+  .date { color: #6b7570; font-size: 15px; margin: 0 0 8px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  .carte {
+    background: #e8f3ec; border: 1px solid #c7e2d1; border-radius: 14px;
+    padding: 18px 22px; margin: 24px 0;
+  }
+  code { background: #eef2ee; padding: 1px 5px; border-radius: 5px; font-size: 15px; }
+  a { color: #176B43; }
+  footer { padding: 40px 20px 56px; color: #6b7570; font-size: 15px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Politique de confidentialité — SaytuMa</h1>
+  <p class="date">Dernière mise à jour : 18 octobre 2026</p>
+</header>
+
+<main>
+  <h2>Qui publie cette application</h2>
+  <p>SaytuMa est une application de gestion de boutique développée et maintenue
+    par <strong>Ousseynou Dieng</strong> — ci-dessous « l'éditeur ».
+    Contact : <strong>ousseynoudieng9@gmail.com</strong>.</p>
+
+  <div class="carte">
+    <p style="margin:0"><strong>Le principe à retenir :</strong> SaytuMa n'a pas de
+    serveur. L'application ne collecte rien pour l'éditeur, qui ne peut ni voir,
+    ni lire, ni conserver ce que tu saisis. Tout reste sur ton téléphone, sauf la
+    sauvegarde que tu décides d'envoyer sur <em>ton</em> compte Google.</p>
+  </div>
+
+  <h2>Les données que l'application manipule</h2>
+  <p>Tout est écrit dans une base de données privée sur le téléphone
+    (<code>boutique_facile.db</code>), dans l'espace clos de l'application,
+    inaccessible aux autres applications :</p>
+  <ul>
+    <li>le <strong>prénom du gérant</strong>, affiché sur la page d'accueil ;</li>
+    <li>les <strong>produits</strong> : nom, prix d'achat, prix de vente,
+      quantité en stock, seuil d'alerte ;</li>
+    <li>les <strong>ventes</strong> : date, articles, montant, réglé ou crédit,
+      remboursements ;</li>
+    <li>les <strong>clients</strong> et leurs <strong>dettes</strong> : nom du
+      client, montant dû, historique ;</li>
+    <li>les <strong>dépenses</strong> de la boutique : libellé, montant, date ;</li>
+    <li>les <strong>copies de sauvegarde</strong> automatiques locales
+      (7 derniers jours).</li>
+  </ul>
+  <p>Ces données restent sur l'appareil. Désinstaller SaytuMa les supprime toutes.</p>
+
+  <h2>Sauvegarde sur le compte Google (entièrement optionnelle)</h2>
+  <p>Si tu choisis « Relier mon compte Google » dans l'onglet Rapports,
+    l'application utilise les services de Google :</p>
+  <ul>
+    <li><strong>Google Sign-In (OAuth 2.0)</strong>, avec les scopes
+      <code>email</code> et <code>profile</code> : SaytuMa affiche et conserve
+      uniquement ton <strong>adresse e-mail</strong> et ton prénom Google, dans
+      l'écran « Mon profil », pour que tu saches à quel compte l'application est
+      reliée ;</li>
+    <li><strong>Google Drive API</strong>, avec le scope <code>drive.appdata</code>
+      uniquement : cet accès est limité à l'<strong>espace privé de
+      l'application</strong>. SaytuMa y écrit un seul fichier,
+      <code>SaytuMa_sauvegarde.db</code>, qui n'apparaît ni dans Drive, ni dans les
+      partages, ni dans la recherche, et qu'aucune autre application ne peut lire.
+      SaytuMa ne consulte, ne modifie et ne supprime <strong>aucun autre
+      fichier</strong> de ton Drive ;</li>
+    <li>le <strong>jeton d'accès</strong> utilisé pour cet envoi reste sur le
+      téléphone et n'est jamais transmis à l'éditeur ;</li>
+    <li>l'envoi a lieu <strong>une fois par jour</strong>, à l'ouverture de
+      l'application, seulement si le téléphone est connecté. Tu peux le couper
+      (« Sauvegarde automatique ») ou déconnecter le compte à tout moment.</li>
+  </ul>
+  <p>L'éditeur ne reçoit aucune copie de ces sauvegardes : elles occupent le
+    stockage gratuit de <strong>ton</strong> compte Google.</p>
+
+  <h2>Partager un rapport ou une copie</h2>
+  <p>Les rapports et les fichiers que tu partages quittent le téléphone par les
+    applications que <strong>tu</strong> choisis (WhatsApp, Gmail, gestionnaire de
+    fichiers). L'éditeur n'intervient pas dans cet envoi ; ces applications ont
+    leur propre politique de confidentialité.</p>
+
+  <h2>Ce qui n'est pas fait</h2>
+  <p>SaytuMa ne contient <strong>aucune publicité, aucun traceur, aucun outil de
+    mesure d'audience ni de télémétrie</strong>. L'application ne collecte pas non
+    plus :</p>
+  <ul>
+    <li>ta position géographique, le numéro de série de l'appareil, ton numéro de
+      téléphone ou ta liste de contacts ;</li>
+    <li>le contenu des SMS, l'historique des appels, tes photos, tes fichiers
+      audio ou le flux de la caméra ;</li>
+    <li>des statistiques d'utilisation, même anonymisées.</li>
+  </ul>
+  <p>Les seules permissions déclarées sont l'accès à Internet (utile uniquement
+    pour la sauvegarde Google) et la biométrie lorsque le téléphone la propose.</p>
+
+  <h2>Tes droits, et comment les exercer</h2>
+  <ul>
+    <li><strong>Consulter, modifier, supprimer</strong> : directement dans
+      l'application, ou en désinstallant SaytuMa.</li>
+    <li><strong>Supprimer la copie Google</strong> : onglet Rapports →
+      « Déconnecter le compte », puis sur
+      <a href="https://drive.google.com/settings/viewer">drive.google.com/settings/viewer</a>
+      → « Applications tierces » → SaytuMa → <em>Supprimer les données
+      masquées</em>.</li>
+    <li><strong>Retirer l'autorisation donnée à l'application</strong> : sur
+      <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+      → SaytuMa → <em>Supprimer l'accès</em>.</li>
+    <li><strong>Pose toute question relative à tes données</strong> à l'adresse de
+      contact indiquée en haut de cette page.</li>
+  </ul>
+
+  <h2>Les données des clients de ta boutique</h2>
+  <p>En tant que gérant, tu es responsable des informations que tu enregistres sur
+    tes clients (noms, dettes). Ces données t'appartiennent, ne transitent par
+    aucun service de l'éditeur, et il t'appartient d'en informer tes clients et de
+    les conserver de façon responsable — notamment quand tu partages un rapport
+    par messagerie.</p>
+
+  <h2>Évolution de cette politique</h2>
+  <p>Cette page peut être mise à jour si l'application évolue. Toute modification
+    sera datée en haut de cette page et, si elle est importante, signalée dans
+    l'application.</p>
+
+  <p><a href="index.html">← Retour à la page de SaytuMa</a></p>
+</main>
+
+<footer>
+  SaytuMa — application de gestion pour boutiques de quartier.<br>
+  Dernière mise à jour : 18 octobre 2026.
+</footer>
+</body>
+</html>
